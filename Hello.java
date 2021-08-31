@@ -23,7 +23,7 @@ public class Hello {
 	
 	private static void doPrint (int times) {
 	
-		for (var i = 1; i<=times; ++i)
+		for (int i = 1; i<=times; ++i)
 			System.out.println("Hello world times " + i + "!");
 	
 	}
